@@ -1,6 +1,6 @@
 # python-code-snippets
 
-> Snippets y utilidades Python
+> Python Snippets & Utilities
 
 ![Language](https://img.shields.io/github/languages/top/J1u2a3n8/python-code-snippets)
 ![License](https://img.shields.io/github/license/J1u2a3n8/python-code-snippets)
@@ -8,66 +8,66 @@
 ![Stars](https://img.shields.io/github/stars/J1u2a3n8/python-code-snippets?style=social)
 ![Issues](https://img.shields.io/github/issues/J1u2a3n8/python-code-snippets)
 
-## 📋 Descripción
+## Description
 
-Proyecto backend que muestra competencias en APIs, arquitectura limpia y patrones. Migrado, historial reescrito, documentado para portfolio.
+Collection of useful Python snippets, algorithms, and utilities covering data structures, algorithms, file processing, API clients, and common programming patterns. Organized by category for easy reference.
 
-## 🏗️ Arquitectura
+## Architecture
 
-Clean Architecture / Layered Architecture
+Modular package structure: algorithms/, data_structures/, utils/, api_clients/, scripts/
 
-## 🚀 Inicio Rápido
+## Quick Start
 
-### Prerrequisitos
+### Prerequisites
 
-.NET 8 SDK, Node.js 20+ (para mc-nuts-api-design)
+.NET 8 SDK, Node.js 20+ (for mc-nuts-api-design)
 
-### Instalación
+### Installation
 
 ```bash
-# Clonar
+# Clone
 git clone https://github.com/J1u2a3n8/python-code-snippets.git
 cd python-code-snippets
 
-dotnet restore
-# dotnet build
+pip install -r requirements.txt
 ```
 
-### Uso
+### Usage
 
 ```bash
-dotnet run --project src/
+python -m utils.file_processor --help
+# python scripts/data_cleanup.py
 ```
 
-## 🧪 Tests
+## Testing
 
 ```bash
-dotnet test
+pytest tests/
 ```
 
-## 📁 Estructura del Proyecto
+## Project Structure
 
 ```
 python-code-snippets/
-├── src/              # Código fuente principal
-├── tests/            # Tests unitarios/integración
-├── docs/             # Documentación
-├── .github/          # Workflows CI/CD
+├── src/              # Main source code
+├── tests/            # Unit/integration tests
+├── docs/             # Documentation
+├── .github/          # CI/CD workflows
 └── README.md
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-**C#**, .NET 8
+Python 3.10+, NumPy, Pandas, Requests, pytest
 
-## 📄 Licencia
+## License
 
-Este proyecto está bajo licencia **MIT** - ver [LICENSE](LICENSE) para detalles.
+This project is licensed under the **MIT License** - see [LICENSE](LICENSE) for details.
 
-## 👤 Autor
+## Author
 
 **J1u2a3n8** - [GitHub](https://github.com/J1u2a3n8) - [LinkedIn](https://linkedin.com/in/juanluiscanedo)
 
 ---
 
-⭐ Si este proyecto te fue útil, ¡dale una estrella!
+⭐ If you found this project useful, give it a star!
